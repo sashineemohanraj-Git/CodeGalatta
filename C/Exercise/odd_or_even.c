@@ -3,11 +3,11 @@
 
     int num=-25;
 
-    if (-25%2 ==-1){
+    if (num%2 ==0){
 
-        printf("odd");
-    } else {
         printf("even");
+    } else {
+        printf("odd");
     }
      return 0;
   }
