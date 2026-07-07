@@ -2,9 +2,9 @@
 
 int main(){
     int base=3;
-    int power=2;
+    int power=0;
     int result=1;
-    for (int i=1; i<= power; i++){
+    for (int i=0; i< power; i++){
 result= result*base;
         
 }
