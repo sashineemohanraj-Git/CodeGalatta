@@ -7,7 +7,7 @@ int main(){
     string vowels ="";
 
     for(int i = 0; i < randomString.length(); i++){
-        cout << randomString[i] << " ";
+        cout << randomString[i] << endl;
     }
     
 
