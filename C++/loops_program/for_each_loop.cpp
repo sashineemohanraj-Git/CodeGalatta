@@ -10,7 +10,7 @@ int main(){
     
     //for each loop
     for( int value: num){
-        cout << value << endl;
+        cout << value +1 << endl;
     }
 
     return 0;
