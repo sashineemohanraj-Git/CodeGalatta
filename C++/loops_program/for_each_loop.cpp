@@ -3,15 +3,17 @@
 using namespace std;
 int main(){
 
-    string greeting = "Hello World";
-    int index = 0;
     
+    string greeting = "Hello, World!";
+    int index = 0;
+
     //for each loop
-    for( char value: greeting){
-        if (value== 'l'){
-            cout << "The letter e is found at index: " << index << endl;
+
+    for (char c : greeting) {
+        if (c == 'l') { // Skip spaces
+            cout << "Character at index " << index << ": " << c << endl;
         }
-        cout << value << endl;
+        
         index++;
     }
 
