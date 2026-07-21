@@ -15,17 +15,19 @@ class person{
    //use of constructor
    //classvariable(parameters){}
    
-      person(){
+      person(string n, int a, int h){
+        name= n;
+        age =a;
+        height = h;
+
     cout<< "sashinee constructor"<< endl;
       } 
 } ;
 
 int main(){
 
-    person person1;
-    person1.name= "sashinee";
-    person1.age= 18;
-    person1.height= 154;
+    person person1("sashinee", 18, 154);
+    
     
 
     return 0;
