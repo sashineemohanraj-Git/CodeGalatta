@@ -17,28 +17,32 @@ access members */
 #include <iostream>
 using namespace std;
 
-
+//class variable
 class person{
     public:
     string name;
     int age;
     float height;
 
-    void greeting (){
-       cout << "hello"<< endl;
-    }
-    protected:
-    float weight;
+    person(){
 
-    private:
+        name= "sashinee";
+        age= 18;
+        height= 154;
+    }
+     
 
 } ;
 
 int main(){
 
     person person1;
+    //objectname.property= value;(to cahnge the value or to assign a value to the property of the class)
+    person1.name= "sashu";
+    
     cout<< person1.name<< endl;
     cout<< person1.age<< endl;
+    cout<< person1.height<< endl;
     
 
     return 0;
