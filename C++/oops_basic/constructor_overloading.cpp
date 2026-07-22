@@ -9,7 +9,9 @@ class person{
    string name;
    int age;
    float height;
-   person(string n, int a, float h){
+
+   //construction overloading - sane constructor but diff no of parameters or diff data type of that parameter
+      person(string n, int a, float h){
         name= n;
         age =a;
         height = h;

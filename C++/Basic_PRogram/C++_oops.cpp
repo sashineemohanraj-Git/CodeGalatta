@@ -19,26 +19,24 @@ using namespace std;
 
 //class variable
 class person{
+
+    
     public:
     string name;
     int age;
     float height;
 
-    person(){
-
-        name= "sashinee";
-        age= 18;
-        height= 154;
-    }
-     
+    
 
 } ;
 
 int main(){
 
     person person1;
-    //objectname.property= value;(to cahnge the value or to assign a value to the property of the class)
+    //objectname.property= value;(to change the value or to assign a value to the property of the class)
     person1.name= "sashu";
+    person1.age= 18;
+    person1.height= 154;
     
     cout<< person1.name<< endl;
     cout<< person1.age<< endl;
