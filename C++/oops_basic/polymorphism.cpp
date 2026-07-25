@@ -3,8 +3,9 @@
 using namespace std;
 //polymorphism- many forms, occurs when there are many classes. Helps to perform single action in diff ways.
 //example: for classes of animals which makes sound there are pigs, cat, dog . Soo same action behaves diff.
-//base class(parent)
 
+
+//base class(parent)
 class animal{
     public:
     void animalsound(){
