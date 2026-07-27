@@ -3,6 +3,7 @@
 
 //in list u can add and remove elements at beginning and end but in vector u can only add and remove only at end.
 // in list u cant access elements using index.
+//set is also similar to list but existing elements cannot be changed.
 using namespace std;
 
 int main(){
