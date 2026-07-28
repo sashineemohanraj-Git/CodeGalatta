@@ -16,9 +16,14 @@ int main(){
     fruits.insert({{"orange",10}}); //alterante way to add an element
 
     fruits.erase("cherry"); //to erase an element
+    cout<< fruits.count("cherry")<< endl; //if a key is present 1 comes if not 0 comes
 
     cout<< fruits.at("apple")<<endl;
     cout<< fruits.size()<<endl;
+
+    for(auto num :fruits){
+        cout<< num.first << "is"<< num.second << endl;
+    }
 
     
     return 0;
