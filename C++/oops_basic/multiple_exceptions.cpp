@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int main(){
@@ -7,7 +6,7 @@ int main(){
     try{
         float num = 3.14f;
         throw num;
-    }
+    } //multiple catch block
     catch(int x){
         cout<< "int exception" << endl;
     }
