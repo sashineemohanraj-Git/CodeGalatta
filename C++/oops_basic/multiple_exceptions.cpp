@@ -9,13 +9,13 @@ int main(){
         throw num;
     }
     catch(int x){
-        cout<< "int exception";
+        cout<< "int exception" << endl;
     }
     catch(double x){
-        cout<< "double exception";
+        cout<< "double exception"<< endl;
     }
     catch(...){
-        cout<< "unknown exception";
+        cout<< "unknown exception"<< endl;
     }
     return 0;
 }
