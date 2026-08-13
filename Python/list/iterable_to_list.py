@@ -5,3 +5,7 @@
 name= "sashinee" #this is a string
 
 print(list(name)) #string to list
+
+age= ["twenty", "twenty one", "twenty two"] 
+
+print(list(age)) #list to list but from double quotes to single quotes
